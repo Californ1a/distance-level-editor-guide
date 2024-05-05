@@ -41,6 +41,16 @@ h2 {
 	margin-top: 10px;
 }
 
+a {
+	color: #FFD700;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFD700;
+	text-decoration: underline;
+}
+
 .header {
 	width: 1024px;
 	margin-left: auto;
@@ -122,6 +132,25 @@ h2 {
 	overflow: auto;
 }
 
+.infobox.missing-video {
+	background-color: #660000;
+	font-size: 16px;
+	width: fit-content;
+	margin: auto;
+}
+
+.small {
+	font-size: 14px;
+}
+
+.x-small {
+	font-size: 12px;
+}
+
+.inline {
+	display: inline;
+}
+
 /*arranging images*/
 .left-image img {
 	float: left;
@@ -148,7 +177,5 @@ h2 {
 }
 
 .big-image a {
-	color: white;
 	font-weight: bold;
-	text-decoration: none;
 }
